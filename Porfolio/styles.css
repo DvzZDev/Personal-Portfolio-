@@ -263,9 +263,14 @@ body {
   --_c: #0000 0 25%, var(--c) 0 50%;
   --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
   --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
-  background: var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
-    var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
-  background-size: 200% var(--b), var(--b) 200%;
+  background:
+    var(--_g1) var(--_p, 25%) 0,
+    var(--_g2) 0 var(--_p, 125%),
+    var(--_g1) var(--_p, 125%) 100%,
+    var(--_g2) 100% var(--_p, 25%);
+  background-size:
+    200% var(--b),
+    var(--b) 200%;
   filter: grayscale(50%);
   transition: 0.6s;
 }
@@ -289,8 +294,8 @@ body {
     word-wrap: break-word;
   }
   .box-redes {
-    overflow:auto;
+    overflow: auto;
     height: 70px;
-    word-wrap:break-word;
+    word-wrap: break-word;
   }
 }
