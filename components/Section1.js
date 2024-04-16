@@ -55,7 +55,7 @@ function Section1() {
           <div>
             <img
               src="/down.svg"
-              class="animate-bounce w-16 text-cyan-600"
+              className="animate-bounce w-16 text-cyan-600"
             ></img>
           </div>
         </div>
