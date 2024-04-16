@@ -5,7 +5,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "David Esteban",
   description: "David Esteban Portfolio",
-  favicon: "/buscar.png",
+  og: {
+    title: "David Esteban",
+    description: "Portfolio David Esteban",
+    type: "website",
+    url: "https://portfolio-dvz-z-node-js.vercel.app/",
+    image: "/portada.png",
+    site_name: "Portfolio David Esteban",
+  },
 };
 
 export default function RootLayout({ children }) {
