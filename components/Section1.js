@@ -14,7 +14,7 @@ function Section1() {
   return (
     <>
       <Link href="#inicio"></Link>
-      <section className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade-in">
+      <section className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade ">
         <div className="flex flex-col">
           <span
             className={
@@ -24,7 +24,7 @@ function Section1() {
             DVZZ|DEV 👋
           </span>
 
-          <h1 className="text-7xl font-bold text-blue-400 md:text-8xl ">
+          <h1 className="text-7xl font-bold text-blue-400 md:text-8xl  ">
             DAVID ESTEBAN
           </h1>
           <h2 className="text-2xl mt-1 md:text-4xl">

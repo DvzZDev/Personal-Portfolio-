@@ -11,6 +11,15 @@ module.exports = {
         work: ["Work Sans", "sans-serif"],
       },
     },
+    animation: {
+      fade: "fadeIn 2s ease-in-out",
+    },
+    keyframes: {
+      fadeIn: {
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+      },
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
