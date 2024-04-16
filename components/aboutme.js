@@ -36,12 +36,12 @@ function Aboutme() {
             <img src="/about.svg" className="h-12 ml-4 mt-2 md:mt-4 "></img>
           </div>
         </div>
-        <div className="ml-12 mr-12 mt h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
+        <div className="ml-14 mr-12 mt h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
           <div className="max-w-4xl font-light ">
             <p
               className={
                 rubik2.className +
-                " text-1xl text-white-400 italic md:text-2xl  "
+                " text-1xl text-white-400 italic  md:text-2xl  "
               }
             >
               <b className="text-pink-400 font-bold">Hola!</b> Soy David tambien
