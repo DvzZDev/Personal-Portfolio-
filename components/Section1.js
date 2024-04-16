@@ -13,6 +13,10 @@ const edu_TAS_Beginner = Edu_TAS_Beginner({
 function Section1() {
   return (
     <>
+      <head>
+        <meta property="og:image" content="/portada.png" />
+        <meta property="og:title" content="David Portfolio" />
+      </head>
       <section
         id="sec-1"
         className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade "

@@ -7,7 +7,6 @@ export const metadata = {
   description: "David Esteban Portfolio",
   og: {
     image: "/portada.png",
-    title: "Portfolio David Esteban",
   },
 };
 
