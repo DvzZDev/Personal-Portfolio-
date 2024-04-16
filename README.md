@@ -1,10 +1,10 @@
-<h1>David Esteban García's Portfolio</h1>
+<h1>David Esteban Personal Portfolio</h1>
 
-<p>Welcome to my GitHub portfolio! This repository contains the source code of my personal portfolio, where I share information about myself, my work, and projects.</p>
+<p>Welcome to my personal portfolio! This repository contains the source code of my portfolio, where I share information about myself, my studies, and my actual knowledge.</p>
 
 <h2>About Me</h2>
 
-<p>Hi there! I'm David Esteban García, a web development enthusiast based in Spain. Currently, I'm a student of Web Development and I'm passionate about learning and improving my skills in the field of technology.</p>
+<p>Hi there! I'm David Esteban García, a future web development enthusiast based in Spain. Currently, I'm a student of Web Development and I'm passionate about learning and improving my skills in the field of programmig.</p>
 
 <h2>Technologies Used</h2>
 
@@ -13,17 +13,8 @@
   <li>Next.js: I use Next.js as my React framework to create fast and efficient web applications.</li>
   <li>Tailwind CSS: Tailwind CSS is my choice of CSS framework for rapid development and attractive UI.</li>
   <li>React: I use React as the main library to build interactive and dynamic user interfaces.</li>
-  <li>GitHub Pages: I deploy my portfolio using GitHub Pages to make it accessible online.</li>
+  <li>Vercel: I deploy my portfolio using Vercel to make it accessible online.</li>
 </ul>
-
-<h2>Featured Projects</h2>
-
-<p>Here are some of my featured projects that you can find in my portfolio:</p>
-<ol>
-  <li>Project One: Brief description of project one and its main technology.</li>
-  <li>Project Two: Brief description of project two and its main technology.</li>
-  <li>Project Three: Brief description of project three and its main technology.</li>
-</ol>
 
 <h2>How to Contribute</h2>
 
@@ -31,7 +22,7 @@
 
 <h2>Links</h2>
 <ul>
-  <li>Live Portfolio: <a href="https://davidesteban.dev">Link to deployed portfolio</a></li>
+  <li>Live Portfolio: <a href="portfolio-dvz-z-node-js.vercel.app">Link to deployed portfolio</a></li>
   <li>LinkedIn: <a href="https://www.linkedin.com/in/david-esteban-garcia-bba029221/">LinkedIn Profile</a></li>
   <li>Twitter: <a href="https://twitter.com/_DvzZ_">Twitter Profile</a></li>
 </ul>
