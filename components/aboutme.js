@@ -35,12 +35,11 @@ function Aboutme() {
           <img src="/about.svg" className="h-12 ml-4 mt-4 "></img>
         </div>
       </div>
-      <div className="ml-7 mr-7 h-2/3 w-auto text-justify flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
+      <div className="ml-12 mr-12 mt h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
         <div className="max-w-4xl font-light ">
           <p
             className={
-              rubik2.className +
-              " text-2xl text-white-400 text-balance italic md:text-2xl  "
+              rubik2.className + " text-1xl text-white-400 italic md:text-2xl  "
             }
           >
             <b className="text-pink-400 font-bold">Hola!</b> Soy David tambien
@@ -65,7 +64,7 @@ function Aboutme() {
         </div>
         <div>
           <img
-            className="bg-gradient-to-r from-blue-600 to-violet-600 rounded-3xl w-72 mb-7 transition duration-300 ease-in-out hover:scale-110"
+            className="bg-gradient-to-r from-blue-600 to-violet-600 rounded-3xl w-72 mb-10 transition duration-300 ease-in-out hover:scale-110"
             src="/yo.png"
           ></img>
         </div>
