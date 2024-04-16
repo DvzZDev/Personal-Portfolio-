@@ -6,12 +6,8 @@ export const metadata = {
   title: "David Esteban",
   description: "David Esteban Portfolio",
   og: {
-    title: "David Esteban",
-    description: "Portfolio David Esteban",
-    type: "website",
-    url: "https://portfolio-dvz-z-node-js.vercel.app/",
-    image: "../public/portada.png",
-    site_name: "Portfolio David Esteban",
+    image: "/portada.png",
+    title: "Portfolio David Esteban",
   },
 };
 
