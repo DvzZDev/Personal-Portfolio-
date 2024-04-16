@@ -14,7 +14,7 @@ function Section1() {
   return (
     <>
       <Link href="#inicio"></Link>
-      <section className="inset-1 flex items-center justify-center h-screen pl-20 pr-20">
+      <section className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade-in">
         <div className="flex flex-col">
           <span
             className={
@@ -47,6 +47,14 @@ function Section1() {
               nombre="Github"
               imagen="/github.svg"
             />
+          </div>
+        </div>
+        <div className="flex items-center justify-center absolute bottom-1">
+          <div>
+            <img
+              src="/down.svg"
+              class="animate-bounce w-16 text-cyan-600"
+            ></img>
           </div>
         </div>
       </section>
