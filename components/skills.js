@@ -18,8 +18,7 @@ const rubik = Rubik({
 function Skills() {
   return (
     <>
-      <div className="animate-fade">
-        <Link href="#habilidades"></Link>
+      <div id="skills" className="animate-fade">
         <div className="inset-1 flex items-center justify-center border-cian">
           <div className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_6px] bg-no-repeat bg-bottom flex flex-row animate-fade">
             <h1

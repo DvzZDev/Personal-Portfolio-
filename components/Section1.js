@@ -13,8 +13,10 @@ const edu_TAS_Beginner = Edu_TAS_Beginner({
 function Section1() {
   return (
     <>
-      <Link href="#inicio"></Link>
-      <section className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade ">
+      <section
+        id="sec-1"
+        className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade "
+      >
         <div className="flex flex-col">
           <span
             className={

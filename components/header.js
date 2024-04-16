@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
-
+import Skills from "./skills";
+import Aboutme from "./aboutme";
+import Section1 from "./Section1";
 const Header = () => {
   return (
     <>
@@ -8,21 +10,21 @@ const Header = () => {
         {" "}
         <a
           class="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10"
-          href="/#inicio"
+          href="#sec-1"
         >
           {" "}
-          inicio{" "}
+          DvzZ<b className="to-blue-400">Dev</b>{" "}
         </a>
         <a
           class="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10"
-          href="/#h"
+          href="#skills"
         >
           {" "}
           Habilidades{" "}
         </a>
         <a
           class="rounded-md capitalize px-3 py-0.5 transition-all ease-in-out hover:bg-white/10"
-          href="/#proyectos"
+          href="#abt"
         >
           {" "}
           Sobre Mi{" "}
