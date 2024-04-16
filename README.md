@@ -1,5 +1,4 @@
-<img src:/![image](https://github.com/DvzZDev/Personal-Portfolio-/assets/16827019/edd689c3-0508-4952-a574-42143e33aa30)
->
+![image](https://github.com/DvzZDev/Personal-Portfolio-/assets/16827019/40b10ce9-9bbb-4951-a0a0-b0bd9b5171e7)
 
 <h1>David Esteban Personal Portfolio</h1>
 
