@@ -14,7 +14,7 @@ function Section1() {
   return (
     <>
       <head>
-        <meta property="og:image" content="/portada.png" />
+        <meta property="og:image" content="../public/portada.png" />
         <meta property="og:title" content="David Portfolio" />
       </head>
       <section
