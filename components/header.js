@@ -1,8 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import Skills from "./skills";
-import Aboutme from "./aboutme";
-import Section1 from "./Section1";
+
 const Header = () => {
   return (
     <>

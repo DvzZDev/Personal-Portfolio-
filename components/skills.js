@@ -1,9 +1,7 @@
 import React from "react";
 import { Edu_TAS_Beginner } from "next/font/google";
 import { Rubik } from "next/font/google";
-
 import Tecnologies from "./tecnologies";
-import Link from "next/link";
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
   weight: ["700"],
@@ -39,7 +37,6 @@ function Skills() {
               title={"HTML5"}
               desc={"Front-End"}
               desc2={'"HTML: Donde cada etiqueta cuenta una historia."'}
-              bgColor={"orange"}
             />
           </div>
           <div className="transition duration-300 ease-in-out hover:scale-110">
@@ -49,7 +46,6 @@ function Skills() {
               title={"CSS3"}
               desc={"Front-End"}
               desc2={'"Un trazo único que da forma a la experiencia visual"'}
-              bgColor={"cyan"}
             />
           </div>
           <div className="transition duration-300 ease-in-out hover:scale-110">
@@ -59,7 +55,15 @@ function Skills() {
               title={"JavaScript"}
               desc={"Front-Back"}
               desc2={'"JavaScript: el corazón de la web moderna."'}
-              bgColor={"yellow"}
+            />
+          </div>
+          <div className="transition duration-300 ease-in-out hover:scale-110">
+            <Tecnologies
+              alt={"TailWind"}
+              href={"/tw.svg"}
+              title={"TailWind"}
+              desc={"Front-End"}
+              desc2={'"TailWind: Uno de los mejores frameworks de CSS"'}
             />
           </div>
         </div>
@@ -82,7 +86,6 @@ function Skills() {
               title={"NetxJs"}
               desc={"Front-Back"}
               desc2={'"NextJs: Aplicaciones web fluidas y eficientes"'}
-              bgColor={"slate"}
             />
           </div>
           <div className="transition duration-300 ease-in-out hover:scale-110">
@@ -92,7 +95,6 @@ function Skills() {
               title={"Mongo DB"}
               desc={"Back-End"}
               desc2={'"MongoDB: Almacenamiento  ágil y escalable."'}
-              bgColor={"green"}
             />
           </div>
           <div className="transition duration-300 ease-in-out hover:scale-110 ">
@@ -102,7 +104,6 @@ function Skills() {
               title={"Astro"}
               desc={"Front-Back"}
               desc2={'"ASTRO: ❤️"'}
-              bgColor={"purple"}
             />
           </div>
         </div>
