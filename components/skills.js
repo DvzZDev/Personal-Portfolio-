@@ -56,8 +56,8 @@ function Skills() {
           <Tecnologies
             alt={"JavaScript"}
             href={"/jsn.svg"}
-            title={"CSS3"}
-            desc={"Front-End"}
+            title={"JavaScript"}
+            desc={"Front-Back"}
             desc2={'"JavaScript: el corazón de la web moderna."'}
             bgColor={"yellow"}
           />

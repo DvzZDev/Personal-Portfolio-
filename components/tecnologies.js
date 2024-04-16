@@ -8,8 +8,6 @@ const rubik = Rubik({
 });
 
 function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
-  const bgColorClass = bgColor ? `bg-${bgColor}-400 bg-opacity-20` : "";
-
   return (
     <div
       className={
@@ -20,7 +18,7 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
       <div className="flex  flex-row overflow-hidden">
         <img
           src={href}
-          className={`h-20 m-2 rounded-xl   ${bgColorClass} p-2`}
+          className={`h-20 m-2 rounded-xl p-2 bg-blue-950 bg-opacity-65`}
           alt={alt}
         />
         <div className="flex flex-col overflow-hidden">

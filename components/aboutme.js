@@ -32,7 +32,7 @@ function Aboutme() {
           >
             Sobre Mi
           </h1>
-          <img src="/about.svg" className="h-12 ml-4 mt-4 "></img>
+          <img src="/about.svg" className="h-12 ml-4 mt-2 md:mt-4 "></img>
         </div>
       </div>
       <div className="ml-12 mr-12 mt h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
