@@ -22,7 +22,7 @@
 
 <h2>Links</h2>
 <ul>
-  <li>Live Portfolio: <a href="portfolio-dvz-z-node-js.vercel.app">Link to deployed portfolio</a></li>
+  <li>Live Portfolio: <a href="https://portfolio-dvz-z-node-js.vercel.app/">Link to deployed portfolio</a></li>
   <li>LinkedIn: <a href="https://www.linkedin.com/in/david-esteban-garcia-bba029221/">LinkedIn Profile</a></li>
   <li>Twitter: <a href="https://twitter.com/_DvzZ_">Twitter Profile</a></li>
 </ul>
