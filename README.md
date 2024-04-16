@@ -1,3 +1,6 @@
+<img src:/![image](https://github.com/DvzZDev/Personal-Portfolio-/assets/16827019/edd689c3-0508-4952-a574-42143e33aa30)
+>
+
 <h1>David Esteban Personal Portfolio</h1>
 
 <p>Welcome to my personal portfolio! This repository contains the source code of my portfolio, where I share information about myself, my studies, and my actual knowledge.</p>
