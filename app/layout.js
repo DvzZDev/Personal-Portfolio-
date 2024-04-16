@@ -10,7 +10,7 @@ export const metadata = {
     description: "Portfolio David Esteban",
     type: "website",
     url: "https://portfolio-dvz-z-node-js.vercel.app/",
-    image: "/portada.png",
+    image: "../public/portada.png",
     site_name: "Portfolio David Esteban",
   },
 };
