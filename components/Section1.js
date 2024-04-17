@@ -14,10 +14,7 @@ function Section1() {
   return (
     <>
       <head>
-        <meta
-          property="og:image"
-          content="https://private-user-images.githubusercontent.com/16827019/323002240-40b10ce9-9bbb-4951-a0a0-b0bd9b5171e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3"
-        />
+        <meta property="og:image" content="https://ibb.co/CH3zg6Q" />
         <meta property="og:title" content="David Portfolio" />
         <meta
           property="og:description"
@@ -38,7 +35,7 @@ function Section1() {
             DVZZ|DEV 👋
           </span>
 
-          <h1 className="text-7xl font-bold text-blue-400 md:text-8xl  ">
+          <h1 className="text-7xl font-bold text-blue-400 md:text-8xl">
             DAVID ESTEBAN
           </h1>
           <h2 className="text-2xl mt-1 md:text-4xl">
