@@ -14,12 +14,26 @@ function Section1() {
   return (
     <>
       <head>
-        <meta property="og:image" content="https://i.imgur.com/ril8Lee.png" />
-        <meta property="og:title" content="David Portfolio" />
+        <meta
+          property="og:title"
+          content="Exploring the Wonders of Tech Innovations"
+        />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://i.imgur.com/ril8Lee.png"
+        />
+        <meta
+          property="og:url"
+          content="https://example.com/tech-innovations"
+        />
         <meta
           property="og:description"
-          content="Hi, I'm David. Welcome to my personal portfolio."
+          content="Join us as we delve into the latest advancements in technology and explore how they are reshaping our world."
         />
+        <meta property="og:site_name" content="Tech World Daily" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:updated_time" content="2023-11-22T10:00:00+00:00" />
       </head>
 
       <section
