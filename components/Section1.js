@@ -1,8 +1,6 @@
 import React from "react";
 import BtnRedes from "../components/buttonRedes";
 import { Edu_TAS_Beginner } from "next/font/google";
-import Header from "../components/header";
-import Link from "next/link";
 
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
@@ -13,29 +11,6 @@ const edu_TAS_Beginner = Edu_TAS_Beginner({
 function Section1() {
   return (
     <>
-      <head>
-        <meta
-          property="og:title"
-          content="Exploring the Wonders of Tech Innovations"
-        />
-        <meta
-          name="image"
-          property="og:image"
-          content="https://i.imgur.com/ril8Lee.png"
-        />
-        <meta
-          property="og:url"
-          content="https://example.com/tech-innovations"
-        />
-        <meta
-          property="og:description"
-          content="Join us as we delve into the latest advancements in technology and explore how they are reshaping our world."
-        />
-        <meta property="og:site_name" content="Tech World Daily" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:updated_time" content="2023-11-22T10:00:00+00:00" />
-      </head>
-
       <section
         id="sec-1"
         className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade "
