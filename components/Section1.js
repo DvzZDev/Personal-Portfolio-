@@ -14,7 +14,7 @@ function Section1() {
   return (
     <>
       <head>
-        <meta property="og:image" content="https://ibb.co/CH3zg6Q" />
+        <meta property="og:image" content="export.png" />
         <meta property="og:title" content="David Portfolio" />
         <meta
           property="og:description"
