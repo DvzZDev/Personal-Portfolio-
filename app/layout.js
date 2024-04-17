@@ -7,7 +7,7 @@ export const metadata = {
   description: "David Esteban Portfolio",
   og: {
     title: "David Esteban",
-    image: "/portada.png",
+    image: "https://i.imgur.com/ril8Lee.png",
     url: "https://portfolio-dvz-z-node-js.vercel.app/",
     description: "David Esteban Portfolio",
     site_name: "https://portfolio-dvz-z-node-js.vercel.app/",
