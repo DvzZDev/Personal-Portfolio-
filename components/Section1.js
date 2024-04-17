@@ -14,9 +14,17 @@ function Section1() {
   return (
     <>
       <head>
-        <meta property="og:image" content="../public/portada.png" />
+        <meta
+          property="og:image"
+          content="https://private-user-images.githubusercontent.com/16827019/323002240-40b10ce9-9bbb-4951-a0a0-b0bd9b5171e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3"
+        />
         <meta property="og:title" content="David Portfolio" />
+        <meta
+          property="og:description"
+          content="Hi, I'm David. Welcome to my personal portfolio."
+        />
       </head>
+
       <section
         id="sec-1"
         className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade "
