@@ -2,25 +2,32 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "David Esteban",
-  description: "David Esteban Portfolio",
-  og: {
-    title: "David Esteban",
-    image: "https://i.imgur.com/ril8Lee.png",
-    url: "https://portfolio-dvz-z-node-js.vercel.app/",
-    description: "David Esteban Portfolio",
-    site_name: "https://portfolio-dvz-z-node-js.vercel.app/",
-    locale: "es_ES",
-    updated_time: new Date().toISOString(),
-  },
-};
-
 export default function RootLayout({ children }) {
   return (
     (
       <head>
-        <link rel="png" href="/buscar.png" sizes="any" />
+        <head>
+          <meta
+            property="og:title"
+            content="Hi you👋, Welcome to my personal portfolio"
+          />
+          <meta
+            name="image"
+            property="og:image"
+            content="https://i.imgur.com/ril8Lee.png"
+          />
+          <meta
+            property="og:url"
+            content="https://example.com/tech-innovations"
+          />
+          <meta property="og:description" content="DvzZ Portfolio" />
+          <meta property="og:site_name" content="Tech World Daily" />
+          <meta property="og:locale" content="en_US" />
+          <meta
+            property="og:updated_time"
+            content="2023-11-22T10:00:00+00:00"
+          />
+        </head>
       </head>
     ),
     (
