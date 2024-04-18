@@ -24,38 +24,15 @@ const rubik2 = Rubik({
 function Footer() {
   return (
     <>
-      <div className="flex flex-row justify-between ml-9 mr-9">
+      <div className="flex items-center justify-center pb-4 ml-9 mr-9">
         <div>
           <a
             className={
               rubik.className + " text-2xl text-white-400 italic md:text-2xl"
             }
-            href="#inicio"
+            href="#sec-1"
           >
             DvzZ<b className="text-blue-400">Dev</b>
-          </a>
-        </div>
-        <div>
-          <a
-            className={
-              rubik.className +
-              " text-2xl text-white-400 italic m-5 md:text-2xl"
-            }
-            href="#inicio"
-            id="es"
-          >
-            ES
-          </a>
-          {"/"}
-          <a
-            className={
-              rubik.className +
-              " text-2xl text-white-400 italic m-5 md:text-2xl"
-            }
-            href="#inicio"
-            id="en"
-          >
-            EN
           </a>
         </div>
       </div>

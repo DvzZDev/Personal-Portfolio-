@@ -2,10 +2,17 @@ import React from "react";
 import { Edu_TAS_Beginner } from "next/font/google";
 import Head from "next/head";
 import BtnRedes from "@/components/buttonRedes";
+import { Rubik } from "next/font/google";
 
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
   weight: ["700"],
+  variable: "--font-work",
+});
+
+const rubik = Rubik({
+  subsets: ["latin"],
+  weight: ["500"],
   variable: "--font-work",
 });
 
@@ -44,19 +51,20 @@ function Section1() {
           >
             DVZZ|DEV 👋
           </span>
-
-          <h1 className="text-7xl font-bold text-blue-400 md:text-8xl">
-            DAVID ESTEBAN
-          </h1>
-          <h2 className="text-2xl mt-1 md:text-4xl">
-            Estudiante de Desarrollo de Aplicaciones Web 📌 España
-          </h2>
+          <div className={rubik.className}>
+            <h1 className="text-7xl font-bold text-blue-400 md:text-8xl">
+              DAVID ESTEBAN
+            </h1>
+            <h2 className="text-2xl mt-1 md:text-4xl">
+              Estudiante de Desarrollo de Aplicaciones Web 📌 España
+            </h2>
+          </div>
 
           <div className="flex flex-row mt-2">
             <BtnRedes
-              href="https://www.twitter.com/_DvzZ_"
-              nombre="Twitter"
-              imagen="/twitter.svg"
+              href="https://github.com/DvzZDev"
+              nombre="Github"
+              imagen="/github.svg"
             />
             <BtnRedes
               href="https://www.linkedin.com/in/david-esteban-garcia-bba029221/"
@@ -64,18 +72,25 @@ function Section1() {
               imagen="/linkedin.svg"
             />
             <BtnRedes
-              href="https://github.com/DvzZDev"
-              nombre="Github"
-              imagen="/github.svg"
+              href="https://www.twitter.com/_DvzZ_"
+              nombre="Twitter"
+              imagen="/twitter.svg"
+            />
+            <BtnRedes
+              href="https://www.instagram.com/dvz_z_z/"
+              nombre="Instagram"
+              imagen="/instagram.svg"
             />
           </div>
         </div>
         <div className="flex items-center justify-center absolute bottom-1">
           <div>
-            <img
-              src="/down.svg"
-              className="animate-bounce w-16 text-cyan-600"
-            ></img>
+            <a href="#skills">
+              <img
+                src="/down.svg"
+                className="animate-bounce w-16 text-cyan-600"
+              ></img>
+            </a>
           </div>
         </div>
       </section>

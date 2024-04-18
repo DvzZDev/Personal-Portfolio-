@@ -18,7 +18,7 @@ function Skills() {
     <>
       <div id="skills" className="animate-fade">
         <div className="inset-1 flex items-center justify-center border-cian">
-          <div className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_6px] bg-no-repeat bg-bottom flex flex-row animate-fade">
+          <div className=" flex flex-row animate-fade">
             <h1
               className={
                 rubik.className + " text-5xl text-white italic md:text-6xl"
@@ -68,10 +68,11 @@ function Skills() {
           </div>
         </div>
         <div className="inset-1 flex items-center justify-center border-cian">
-          <div className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_6px] bg-no-repeat bg-bottom flex flex-row">
+          <div className="bg-gradient-to-r flex flex-row">
             <h1
               className={
-                rubik.className + " text-5xl text-white-400 italic md:text-6xl"
+                rubik.className +
+                " text-5xl text-white-400 italic md:text-6xl animate-typing"
               }
             >
               Aprendiendo...
@@ -115,7 +116,9 @@ function Skills() {
               href={"/react.svg"}
               title={"React"}
               desc={"Front-Back"}
-              desc2={'"React: Padre de todos los FrameWorks"'}
+              desc2={
+                '"React: Elevando el desarollo web con interfaces dinámicas"'
+              }
               bgColor={"blue"}
             />
           </div>

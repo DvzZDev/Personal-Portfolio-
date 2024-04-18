@@ -12,13 +12,13 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
     <div
       className={
         rubik.className +
-        " w-60 h-56 flex flex-col justify-center items-center rounded-lg m-4 bg-gradient-to-r from-slate-900 to-slate-700 "
+        " w-60 h-56 flex flex-col justify-center items-center rounded-lg m-4 backdrop-blur-3xl  py-4 px-6 border border-purple-600 border-t-0 border-l-0 rounded-br-xl  "
       }
     >
       <div className="flex  flex-row overflow-hidden">
         <img
           src={href}
-          className={`h-20 m-2 rounded-xl p-2 bg-blue-950 bg-opacity-65`}
+          className={`h-20 m-2 w-20 rounded-xl p-2 bg-blue-950 bg-opacity-65 `}
           alt={alt}
         />
         <div className="flex flex-col overflow-hidden">
@@ -28,8 +28,10 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
           <p className="">{desc}</p>
         </div>
       </div>
-      <div>
-        <p className="m-2 ml-4 italic">{desc2}</p>
+      <div className="">
+        <p className="w-56 text-balance flex justify-center items-center text-center h-20  mt-2 italic bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg- ">
+          {desc2}
+        </p>
       </div>
     </div>
   );

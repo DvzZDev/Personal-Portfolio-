@@ -23,10 +23,10 @@ function Aboutme() {
     <>
       <div id="abt" className="animate-fade">
         <div className="inset-1 flex items-center justify-center border-cian">
-          <div className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_6px] bg-no-repeat bg-bottom flex flex-row">
+          <div className=" flex flex-row">
             <h1
               className={
-                rubik.className + " text-5xl text-white-400 italic md:text-6xl"
+                rubik.className + " text-5xl text-white-400 italic md:text-6xl "
               }
             >
               Sobre Mi
@@ -34,12 +34,12 @@ function Aboutme() {
             <img src="/about.svg" className="h-12 ml-4 mt-2 md:mt-4 "></img>
           </div>
         </div>
-        <div className="ml-14 mr-12 mt h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-20">
+        <div className="ml-14 mr-12 h-2/3 w-auto flex flex-col-reverse object-center justify-center items-center mt-10 mb-10">
           <div className="max-w-4xl font-light ">
             <p
               className={
                 rubik2.className +
-                " text-1xl text-white-400 italic  md:text-2xl  "
+                " text-1xl text-white-400 italic  md:text-2xl px-6 border border-blue-400 border-r-0 border-t-0  p-3 border-b-0  "
               }
             >
               <b className="text-pink-400 font-bold">Hola!</b> Soy David tambien
