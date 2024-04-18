@@ -2,8 +2,6 @@ import React from "react";
 import { Edu_TAS_Beginner } from "next/font/google";
 import { Rubik } from "next/font/google";
 
-import Tecnologies from "./tecnologies";
-import Link from "next/link";
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
   weight: ["700"],

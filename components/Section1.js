@@ -1,6 +1,7 @@
 import React from "react";
-import BtnRedes from "../components/buttonRedes";
 import { Edu_TAS_Beginner } from "next/font/google";
+import Head from "next/head";
+import BtnRedes from "@/components/buttonRedes";
 
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
@@ -11,7 +12,7 @@ const edu_TAS_Beginner = Edu_TAS_Beginner({
 function Section1() {
   return (
     <>
-      <head>
+      <Head>
         <meta
           property="og:title"
           content="Hi you👋, Welcome to my personal portfolio"
@@ -29,7 +30,7 @@ function Section1() {
         <meta property="og:site_name" content="Tech World Daily" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:updated_time" content="2023-11-22T10:00:00+00:00" />
-      </head>
+      </Head>
 
       <section
         id="sec-1"
