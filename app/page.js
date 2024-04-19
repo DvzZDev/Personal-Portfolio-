@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import "tailwindcss/tailwind.css";
 import { Work_Sans } from "next/font/google";
 import Section1 from "../components/Section1";
