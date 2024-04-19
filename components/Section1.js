@@ -3,7 +3,6 @@ import { Edu_TAS_Beginner } from "next/font/google";
 import Head from "next/head";
 import BtnRedes from "@/components/buttonRedes";
 import { Rubik } from "next/font/google";
-
 const edu_TAS_Beginner = Edu_TAS_Beginner({
   subsets: ["latin"],
   weight: ["700"],
@@ -41,9 +40,9 @@ function Section1() {
 
       <section
         id="sec-1"
-        className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade "
+        className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade relative "
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col absolute">
           <span
             className={
               edu_TAS_Beginner.className + " ml-1 text-2xl text-blue-400 italic"
@@ -85,7 +84,7 @@ function Section1() {
         </div>
         <div className="flex items-center justify-center absolute bottom-1">
           <div>
-            <a href="#skills">
+            <a href="#skills" className="hidden md:inline-block">
               <img
                 src="/down.svg"
                 className="animate-bounce w-16 text-cyan-600"

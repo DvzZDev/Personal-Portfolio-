@@ -12,7 +12,7 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
     <div
       className={
         rubik.className +
-        " w-60 h-56 flex flex-col justify-center items-center rounded-lg m-4 backdrop-blur-3xl  py-4 px-6 border border-purple-600 border-t-0 border-l-0 rounded-br-xl  "
+        " w-60 h-56 flex flex-col justify-center items-center rounded-lg m-4 backdrop-blur-3xl  py-4  border border-purple-600 border-t-0 border-l-0 rounded-br-xl  "
       }
     >
       <div className="flex  flex-row overflow-hidden">
@@ -22,7 +22,7 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
           alt={alt}
         />
         <div className="flex flex-col overflow-hidden">
-          <h3 className={rubik.className + " text-2xl mt-3 font-bold "}>
+          <h3 className={rubik.className + " text-lg mt-3 font-bold "}>
             {title}
           </h3>
           <p className="">{desc}</p>
