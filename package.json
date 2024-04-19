@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/scroll-shadow": "^2.1.16",
+    "@vercel/analytics": "^1.2.2",
     "next": "14.2.1",
     "next-i18next": "^15.3.0",
     "react": "^18",
