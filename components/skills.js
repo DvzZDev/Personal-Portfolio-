@@ -29,44 +29,47 @@ function Skills() {
             <img src="/code.svg" className="h-16"></img>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center mt-7 md:flex-row mb-20  ">
-          <div className="transition duration-300 ease-in-out hover:scale-110">
-            <Tecnologies
-              alt={"html5"}
-              href={"/html5.svg"}
-              title={"HTML5"}
-              desc={"Front-End"}
-              desc2={'"HTML: Donde cada etiqueta cuenta una historia."'}
-            />
+
+        <article className=" flex flex-row items-center justify-center mb-12 mt-12 ">
+          <div className="md:grid gap-4 justify-center items-center content-center md:grid-cols-3 xl:grid-cols-4 ">
+            <div className="transition duration-300 ease-in-out hover:scale-110">
+              <Tecnologies
+                alt={"html5"}
+                href={"/html5.svg"}
+                title={"HTML5"}
+                desc={"Front-End"}
+                desc2={'"HTML: Donde cada etiqueta cuenta una historia."'}
+              />
+            </div>
+            <div className="transition duration-300 ease-in-out hover:scale-110">
+              <Tecnologies
+                alt={"CSS"}
+                href={"/css.svg"}
+                title={"CSS3"}
+                desc={"Front-End"}
+                desc2={'"Un trazo único que da forma a la experiencia visual"'}
+              />
+            </div>
+            <div className="transition duration-300 ease-in-out hover:scale-110">
+              <Tecnologies
+                alt={"JavaScript"}
+                href={"/jsn.svg"}
+                title={"JavaScript"}
+                desc={"Front-Back"}
+                desc2={'"JavaScript: el corazón de la web moderna."'}
+              />
+            </div>
+            <div className="transition duration-300 ease-in-out hover:scale-110 md:col-start-2 xl:col-span-1 ">
+              <Tecnologies
+                alt={"TailWind"}
+                href={"/tw.svg"}
+                title={"TailWind"}
+                desc={"Front-End"}
+                desc2={'"TailWind: Uno de los mejores frameworks de CSS"'}
+              />
+            </div>
           </div>
-          <div className="transition duration-300 ease-in-out hover:scale-110">
-            <Tecnologies
-              alt={"CSS"}
-              href={"/css.svg"}
-              title={"CSS3"}
-              desc={"Front-End"}
-              desc2={'"Un trazo único que da forma a la experiencia visual"'}
-            />
-          </div>
-          <div className="transition duration-300 ease-in-out hover:scale-110">
-            <Tecnologies
-              alt={"JavaScript"}
-              href={"/jsn.svg"}
-              title={"JavaScript"}
-              desc={"Front-Back"}
-              desc2={'"JavaScript: el corazón de la web moderna."'}
-            />
-          </div>
-          <div className="transition duration-300 ease-in-out hover:scale-110">
-            <Tecnologies
-              alt={"TailWind"}
-              href={"/tw.svg"}
-              title={"TailWind"}
-              desc={"Front-End"}
-              desc2={'"TailWind: Uno de los mejores frameworks de CSS"'}
-            />
-          </div>
-        </div>
+        </article>
         <div className="inset-1 flex items-center justify-center border-cian">
           <div className="bg-gradient-to-r flex flex-row">
             <h1
