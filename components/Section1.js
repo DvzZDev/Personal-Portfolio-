@@ -60,7 +60,7 @@ function Section1() {
             </h2>
           </div>
 
-          <div className="flex flex-row mt-2">
+          <div className="flex flex-row mt-2 flex-wrap items-center gap-1">
             <BtnRedes
               href="https://github.com/DvzZDev"
               nombre="Github"
