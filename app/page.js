@@ -29,7 +29,7 @@ function Page() {
         property="og:image"
         content="https://i.imgur.com/ril8Lee.png"
       />
-      <meta property="og:url" content="https://example.com/tech-innovations" />
+      <meta property="og:url" content="https://www.dvzz.es/" />
       <meta property="og:description" content="DvzZ Portfolio" />
       <meta property="og:site_name" content="Tech World Daily" />
       <meta property="og:locale" content="en_US" />
