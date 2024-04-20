@@ -40,7 +40,7 @@ function Section1() {
 
       <section
         id="sec-1"
-        className="inset-1 flex items-center justify-center h-screen pl-20 pr-20 animate-fade relative "
+        className="inset-1 flex items-center justify-center h-screen w-screen pl-20 pr-20 animate-fade relative "
       >
         <div className="flex flex-col absolute">
           <span
@@ -87,7 +87,7 @@ function Section1() {
             <a href="#skills" className="hidden md:inline-block">
               <img
                 src="/down.svg"
-                className="animate-bounce w-16 text-cyan-600"
+                className="animate-bounce w-16 text-cyan-600 mb-24"
               ></img>
             </a>
           </div>
