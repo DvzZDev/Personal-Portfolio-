@@ -31,7 +31,6 @@ function Page() {
       />
       <meta property="og:url" content="https://www.dvzz.es/" />
       <meta property="og:description" content="DvzZ Portfolio" />
-      <meta property="og:locale" content="en_US" />
       <meta property="og:updated_time" content="2023-11-22T10:00:00+00:00" />
 
       <div className="sticky z-10 top-0 flex justify-center items-center bg-transparent">
