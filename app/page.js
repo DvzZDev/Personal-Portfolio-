@@ -19,7 +19,7 @@ const work_sans = Work_Sans({
 function Page() {
   return (
     <>
-      <title>Your Page Title</title>
+      <title>David Esteban Portfolio</title>
       <meta
         property="og:title"
         content="Hi you👋, Welcome to my personal portfolio"
