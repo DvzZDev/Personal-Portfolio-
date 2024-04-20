@@ -18,7 +18,7 @@ function Tecnologies({ href, alt, title, desc, desc2, bgColor }) {
       <div className="flex  flex-row overflow-hidden">
         <img
           src={href}
-          className={`h-20 m-2 w-20 rounded-xl p-2 bg-blue-950 bg-opacity-65 `}
+          className={`h-20 m-2 w-20 rounded-xl p-2 bg-fuchsia-400 bg-opacity-15 `}
           alt={alt}
         />
         <div className="flex flex-col overflow-hidden">
