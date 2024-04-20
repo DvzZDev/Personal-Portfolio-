@@ -18,7 +18,7 @@ function Skills() {
     <>
       <div id="skills" className="animate-fade">
         <div className="inset-1 flex items-center justify-center border-cian">
-          <div className=" flex flex-row animate-fade mt-9 mb-8">
+          <div className=" flex flex-row animate-fade">
             <h1
               className={
                 rubik.className + " text-5xl text-white pt-2 italic md:text-6xl"
@@ -31,8 +31,8 @@ function Skills() {
         </div>
 
         <article className=" flex flex-row items-center justify-center  ">
-          <div className="md:grid gap-4 justify-center items-center content-center md:grid-cols-3 xl:grid-cols-4 ">
-            <div className="transition duration-300 ease-in-out hover:scale-110">
+          <div className="md:grid gap-4 justify-center items-center content-center md:grid-cols-3 xl:grid-cols-4 mt-14 mb-16">
+            <div className="transition duration-300 ease-in-out hover:scale-110 ">
               <Tecnologies
                 alt={"html5"}
                 href={"/html5.svg"}
@@ -71,7 +71,7 @@ function Skills() {
           </div>
         </article>
         <div className="inset-1 flex items-center justify-center border-cian">
-          <div className="bg-gradient-to-r flex flex-row mt-8 mb-8">
+          <div className="bg-gradient-to-r flex flex-row">
             <h1
               className={
                 rubik.className +
@@ -82,7 +82,7 @@ function Skills() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center  md:flex-row ">
+        <div className="flex flex-col justify-center items-center  md:flex-row mt-14 ">
           <div className="transition duration-300 ease-in-out hover:scale-110">
             <Tecnologies
               alt={"NetxJs"}
