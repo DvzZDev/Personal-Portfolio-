@@ -20,7 +20,7 @@ function Section1() {
     <>
       <section
         id="sec-1"
-        className="inset-1 flex items-center justify-center h-screen w-screen pl-20 pr-20 animate-fade relative "
+        className="inset-1 flex items-center justify-center h-svh pl-20 pr-20 animate-fade relative "
       >
         <div className="flex flex-col absolute">
           <span
